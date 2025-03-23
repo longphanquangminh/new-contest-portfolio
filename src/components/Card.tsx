@@ -1,4 +1,3 @@
-import grainImage from '../assets/images/grain.jpg';
 import { ComponentPropsWithoutRef } from 'react';
 import { twMerge } from 'tailwind-merge';
 
@@ -11,7 +10,10 @@ export const Card = ({ className, children, ...other }: ComponentPropsWithoutRef
       )}
       {...other}
     >
-      <div className='absolute inset-0 -z-10 opacity-5' style={{ backgroundImage: `url(${grainImage})` }}></div>
+      <div
+        className='absolute inset-0 -z-10 opacity-5'
+        style={{ backgroundImage: `url(../assets/images/grain.jpg)` }}
+      ></div>
       {children}
     </div>
   );

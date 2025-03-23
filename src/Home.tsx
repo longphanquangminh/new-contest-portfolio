@@ -1,10 +1,8 @@
 import { ProgressBar } from '@progress/kendo-react-progressbars';
 import { Badge, BadgeContainer } from '@progress/kendo-react-indicators';
 import { Fade } from '@progress/kendo-react-animation';
-import HeroHand from './assets/icons/hero-hand.svg';
-import MyAvatar from './assets/images/ML.png';
 
-import { AppBar, AppBarSection, Avatar, Step, StepperChangeEvent } from '@progress/kendo-react-layout';
+import { AppBar, AppBarSection, Avatar } from '@progress/kendo-react-layout';
 import { Button, FloatingActionButton, FloatingActionButtonHandle } from '@progress/kendo-react-buttons';
 import GradientText from './components/gradient-text/GradientText';
 
@@ -182,7 +180,7 @@ export default function Home() {
           <div className='k-d-flex k-flex-col k-my-12'>
             <GradientText>
               <div className='nameContainer'>
-                <img src={HeroHand} width={80} height={80} />
+                <img src={'./assets/icons/hero-hand.svg'} width={80} height={80} />
                 <Typography.h1 className='welcome-title'>Hello! I'm Long Phan</Typography.h1>
               </div>
             </GradientText>
@@ -331,7 +329,7 @@ export default function Home() {
           <div className='fixed-popup-container'>
             <BadgeContainer>
               <Avatar size='large' rounded='full' type='image'>
-                <img src={MyAvatar} alt='My Avatar' />
+                <img src={'./assets/images/ML.png'} alt='My Avatar' />
               </Avatar>
               <Badge
                 position='inside'
