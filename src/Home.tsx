@@ -64,13 +64,13 @@ const skills = [
 ];
 
 export default function Home() {
-  const divRef = useRef<HTMLDivElement>(null);
   const [isOutOfViewport, setIsOutOfViewport] = useState(false);
   const [isOutOfViewport2, setIsOutOfViewport2] = useState(false);
   const [isOutOfViewport3, setIsOutOfViewport3] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [velocity, setVelocity] = useState(100);
 
+  const divRef = useRef<HTMLDivElement>(null);
   const starterRef = useRef<HTMLDivElement>(null);
   const demoRef = useRef<HTMLDivElement>(null);
   const skillsRef = useRef<HTMLDivElement>(null);
