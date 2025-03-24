@@ -303,7 +303,8 @@ export default function Home() {
 
         <section className='section-container slider-container'>
           <Typography.h6>
-            🚀 Tweak the scroll velocity. Text speed: {textVelocity}% {getFireIcons(textVelocity)}
+            🚀 Tweak the scroll velocity by sliding the Kendo React slider. Text speed: {textVelocity}%{' '}
+            {getFireIcons(textVelocity)}
           </Typography.h6>
           <Slider
             disabled={false}
