@@ -12,7 +12,7 @@ export const Card = ({ className, children, ...other }: ComponentPropsWithoutRef
     >
       <div
         className='absolute inset-0 -z-10 opacity-5'
-        style={{ backgroundImage: `url(../assets/images/grain.jpg)` }}
+        style={{ backgroundImage: `url(/assets/images/grain.jpg)` }}
       ></div>
       {children}
     </div>

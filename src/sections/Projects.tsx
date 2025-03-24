@@ -82,7 +82,7 @@ export const ProjectsSection = () => {
                   <a href={project.link} target='_blank'>
                     <button className='bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 my-8 cursor-pointer'>
                       <span>{project.buttonText || 'Visit Live Site'}</span>
-                      <img src={'../assets/icons/arrow-up-right.svg'} className='size-4' />
+                      <img src={'/assets/icons/arrow-up-right.svg'} className='size-4' />
                     </button>
                   </a>
                 </div>

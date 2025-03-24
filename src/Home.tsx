@@ -180,7 +180,7 @@ export default function Home() {
           <div className='k-d-flex k-flex-col k-my-12'>
             <GradientText>
               <div className='nameContainer'>
-                <img src={'./assets/icons/hero-hand.svg'} width={80} height={80} />
+                <img src={'/assets/icons/hero-hand.svg'} width={80} height={80} />
                 <Typography.h1 className='welcome-title'>Hello! I'm Long Phan</Typography.h1>
               </div>
             </GradientText>
@@ -329,7 +329,7 @@ export default function Home() {
           <div className='fixed-popup-container'>
             <BadgeContainer>
               <Avatar size='large' rounded='full' type='image'>
-                <img src={'./assets/images/ML.png'} alt='My Avatar' />
+                <img src={'/assets/images/ML.png'} alt='My Avatar' />
               </Avatar>
               <Badge
                 position='inside'
