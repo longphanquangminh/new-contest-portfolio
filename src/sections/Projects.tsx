@@ -14,8 +14,7 @@ const portfolioProjects = [
       { title: 'Countless events attracted whales 🐳' },
     ],
     link: 'https://marketplace.roninchain.com',
-    image:
-      'https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F200ac70b-8d0e-45c0-8d0f-cbb5c4304fb4_5760x6544.png',
+    image: 'https://support.roninchain.com/hc/article_attachments/34349200276891',
   },
   {
     company: 'Mercatus',
@@ -27,7 +26,7 @@ const portfolioProjects = [
       { title: 'Increased brand awareness by 15%' },
     ],
     link: 'https://stor.ai',
-    image: 'https://stor.ai/wp-content/uploads/2024/01/FY24_Store_home-hero2.jpg',
+    image: '/assets/images/storai.png',
   },
   {
     company: 'UEL School',
