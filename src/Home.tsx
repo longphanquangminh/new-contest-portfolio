@@ -3,7 +3,7 @@ import { Badge, BadgeContainer } from '@progress/kendo-react-indicators';
 import { Fade } from '@progress/kendo-react-animation';
 
 import { AppBar, AppBarSection, Avatar } from '@progress/kendo-react-layout';
-import { Button, FloatingActionButton, FloatingActionButtonHandle } from '@progress/kendo-react-buttons';
+import { Button, FloatingActionButton } from '@progress/kendo-react-buttons';
 import GradientText from './components/gradient-text/GradientText';
 
 import './Home.css';
@@ -17,7 +17,6 @@ import Iridescence from './components/iridescence/Iridescence';
 import ScrollVelocity from './components/scroll-velocity/ScrollVelocity';
 import { ContactSection } from './sections/Contact';
 import { ProjectsSection } from './sections/Projects';
-import { Popup } from '@progress/kendo-react-popup';
 import { Slider, SliderChangeEvent } from '@progress/kendo-react-inputs';
 
 const skills = [
@@ -76,7 +75,6 @@ export default function Home() {
   const skillsRef = useRef<HTMLDivElement>(null);
   const contactRef = useRef<HTMLDivElement>(null);
   const projectsRef = useRef<HTMLDivElement>(null);
-  const anchor = useRef<FloatingActionButtonHandle>(null);
 
   const textVelocity = Math.round((velocity / 1000) * 100);
 
@@ -237,14 +235,10 @@ export default function Home() {
                 themeColor='tertiary'
                 svgIcon={searchIcon}
                 align={{ horizontal: 'end', vertical: 'top' }}
-                ref={anchor}
                 onClick={() => {
                   scrollToDemo();
                 }}
               />
-              <Popup anchor={anchor.current && anchor.current.element} show={showPopup}>
-                <div className='bg-red-500 w-96 h-96'>hehe</div>
-              </Popup>
             </div>
           </div>
           <Aurora />
