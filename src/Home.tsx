@@ -81,8 +81,8 @@ export default function Home() {
   const textVelocity = Math.round((velocity / 1000) * 100);
 
   const getFireIcons = (value: number) => {
-    if (value < 50) return '';
-    const fireCount = Math.floor((value - 50) / 10) + 1;
+    if (value < 60) return '';
+    const fireCount = Math.floor((value - 60) / 10) + 1;
     return '🔥'.repeat(fireCount);
   };
 
