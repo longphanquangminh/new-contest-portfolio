@@ -220,7 +220,7 @@ export default function Home() {
               />
             </div>
             <div className='buttonGroup'>
-              <a href='../public/CV_PhanQuangMinhLong_SWE.pdf' target='_blank'>
+              <a href='/CV_PhanQuangMinhLong_SWE.pdf' target='_blank'>
                 <FloatingActionButton
                   className='floatButton'
                   text='View Resume'
