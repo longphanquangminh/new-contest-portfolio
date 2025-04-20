@@ -38,4 +38,5 @@ Hope you enjoy exploring this portfolio I’ve built!
 ---
 
 This project is developed and contributed by [Long Phan](https://github.com/longphanquangminh) 🇻🇳
+
 I don’t chase perfection, it follows me – Long Phan
