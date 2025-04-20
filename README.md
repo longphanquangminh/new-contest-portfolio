@@ -59,6 +59,6 @@ Hope you enjoy exploring this portfolio I’ve built!
 
 ---
 
-This project is developed and contributed by [Long Phan](https://github.com/longphanquangminh) 🇻🇳
+This project was created by me and built with [KendoReact](https://github.com/telerik/kendo-react).
 
 I don’t chase perfection, it follows me – Long Phan
