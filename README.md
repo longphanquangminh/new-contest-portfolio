@@ -1,50 +1,41 @@
-# React + TypeScript + Vite
+# SSS Portfolio: A Developer’s Digital Showcase ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/longphanquangminh/new-contest-portfolio/refs/heads/master/public/Black%20and%20White%20Modern%20Portfolio%20Presentation%20Template.png" alt="portfolio">
+</p>
 
-Currently, two official plugins are available:
+SSS (stands for Super-Simple-Sample) Portfolio is a developer showcase built with 10 Kendo React components for a neat, interactive UI that highlights skills and projects. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sections
 
-## Expanding the ESLint configuration
+- Intro: A dynamic opening with animations featuring my name and position.
+- About: A brief introduction to who I am.
+- Skills: A showcase of my technical expertise.
+- Projects: Highlights of my key development work.
+- Contact: A simple way to reach out to me.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Setup and Usage
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository: `git clone https://github.com/longphanquangminh/new-contest-portfolio.git`
+2. Navigate to the project directory: `cd new-contest-portfolio`
+3. Install Bun (if not installed): `npm i -g bun` (or you can use the package manager of your choice)
+4. Install dependencies: `bun i` (or `bun install` for clarity)
+5. Run the script: `bun run dev`
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Support
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+If you have any questions or need assistance, I am ready to help. Contact me via email at phanquangminhlong@gmail.com or reach out on my social media.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Hope you enjoy exploring this portfolio I’ve built!
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+## Useful Links
+
+🚀 Dev.to blog: https://dev.to/minhlong2605/sss-portfolio-a-developers-digital-showcase-1h22
+
+🔥 X (Twitter) link: https://x.com/The_React_Dev/status/1904931099626647768 (posted by @The_React_Dev - part of Dev Community family)
+
+---
+
+This project is developed and contributed by [Long Phan](https://github.com/longphanquangminh) 🇻🇳
+I don’t chase perfection, it follows me – Long Phan
